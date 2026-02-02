@@ -194,4 +194,11 @@ For questions or issues, please open an issue on GitHub or contact [your email].
 - [Funding sources]
 - [Collaborators]
 - [Data providers]
+
+## Flowchart
+
+![Flowchart](data/Flowchart.png)
+
 # MachineLearning_UncertaintyAware_Hydrothermal_Pipeline
+
+
