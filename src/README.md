@@ -35,25 +35,6 @@ y_pred_mean, y_pred_lo, y_pred_hi = conformal_predict(
 )
 ```
 
-### `rf_trainers_GS.py`
-
-Grid search utilities for hyperparameter tuning.
-
-**Key Functions:**
-
-- `grid_search_rf()` - Perform grid search over hyperparameters
-- `random_search_rf()` - Random search for faster optimization
-- `evaluate_params()` - Evaluate specific parameter combinations
-
-### `rf_trainers_save.py`
-
-Model persistence and serialization utilities.
-
-**Key Functions:**
-
-- `save_model_with_metadata()` - Save model with full metadata
-- `load_model_with_metadata()` - Load model and metadata
-- `export_predictions()` - Export predictions to CSV
 
 ## Configuration
 

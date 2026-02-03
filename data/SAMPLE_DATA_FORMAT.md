@@ -1,10 +1,8 @@
 # Sample Data Format
 
-This is a minimal example showing the expected CSV format for the hydrothermal processing dataset.
+This is a minimal example showing the expected CSV format for the hydrothermal processing dataset (derived dataset)
 
 ## Instructions
-
-Replace this file with your actual dataset as: `HTT_normalized_data.csv`
 
 The dataset should contain:
 - Feedstock composition (elemental & biochemical)
@@ -14,7 +12,7 @@ The dataset should contain:
 ## Minimal Example
 
 ```csv
-C,H,O,N,S,Ash,VM,FC,Lignin,cellulose,hemicellulose,T,t,pressure_effective_mpa,IC,water_biomass_ratio,catalyst_biomass_ratio,biochar_Y_daf,biooil_Y_daf,water_Y_daf,gas_Y_daf,C_biochar,H_biochar,O_biochar,HHV_biochar,C_biooil,H_biooil,O_biooil,HHV_biooil,DOI,Feedstock,Family,process_subtype
+C,H,O,N,S,Ash,Lignin,cellulose,hemicellulose,T,t,pressure_effective_mpa,IC,water_biomass_ratio,catalyst_biomass_ratio,biochar_Y_daf,biooil_Y_daf,water_Y_daf,gas_Y_daf,C_biochar,H_biochar,O_biochar,HHV_biochar,C_biooil,H_biooil,O_biooil,HHV_biooil,DOI,Feedstock,Family,process_subtype
 47.2,6.1,45.8,0.5,0.4,2.5,78.3,17.2,28.5,42.1,29.4,300,30,10.0,10.0,10.0,0.0,35.2,48.5,12.3,4.0,68.4,4.2,26.8,26.5,72.1,7.8,19.5,28.3,10.1234/example1,Corn Stover,Agricultural Residues,HTL
 51.3,5.9,42.1,0.6,0.1,3.2,76.5,20.3,32.1,38.5,29.4,320,45,12.0,15.0,8.0,0.0,32.8,52.1,10.5,4.6,70.2,4.5,24.8,27.8,73.5,8.1,17.9,29.1,10.1234/example2,Wheat Straw,Agricultural Residues,HTL
 ```
@@ -24,9 +22,7 @@ C,H,O,N,S,Ash,VM,FC,Lignin,cellulose,hemicellulose,T,t,pressure_effective_mpa,IC
 ### Feedstock Composition (wt%, dry basis)
 - C, H, O, N, S: Elemental composition
 - Ash: Ash content
-- VM: Volatile matter
-- FC: Fixed carbon
-- Lignin, cellulose, hemicellulose: Biochemical components
+- Lignin, cellulose, hemicellulose: Biochemical components etc. 
 
 ### Process Conditions
 - T: Temperature (°C)
@@ -63,6 +59,3 @@ Ensure your data:
 - Is normalized/standardized if needed
 - Has balanced train/test representation
 
-## Privacy Note
-
-This directory is excluded from version control by default. Your actual data will not be committed to Git unless you explicitly force-add it.

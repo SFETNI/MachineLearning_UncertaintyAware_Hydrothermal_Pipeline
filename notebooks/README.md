@@ -50,35 +50,7 @@ Ensure all dependencies are installed:
 pip install -r ../requirements.txt
 ```
 
-### Launch Jupyter
 
-```bash
-# From project root
-jupyter notebook notebooks/hydrothermal_ml_pipeline.ipynb
-
-# Or from this directory
-jupyter notebook hydrothermal_ml_pipeline.ipynb
-```
-
-### Cell Execution Order
-
-**Important:** Execute cells sequentially from top to bottom.
-
-The notebook is organized as:
-1. Setup cells (environment, imports, paths)
-2. Data loading
-3. Feature engineering
-4. Model training
-5. Evaluation and visualization
-
-## Tips
-
-### Memory Management
-
-For large datasets:
-- Run in chunks
-- Clear outputs periodically: `Cell > All Output > Clear`
-- Restart kernel if needed: `Kernel > Restart & Clear Output`
 
 ### Saving Results
 
@@ -95,14 +67,7 @@ If you encounter errors:
 3. Ensure output directories exist
 4. Check Python version (3.8+)
 
-## Customization
 
-### Change Data Path
-
-```python
-csv_path = Path("../data/your_dataset.csv")
-htt_data = pd.read_csv(csv_path)
-```
 
 ### Modify Model Parameters
 

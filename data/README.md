@@ -2,7 +2,7 @@
 
 ## Overview
 
-Place your hydrothermal processing dataset CSV files in this directory.
+Place the hydrothermal processing dataset CSV file (derived ML ready dataset) in this directory.
 
 ## Required Data Format
 
@@ -13,11 +13,9 @@ Your dataset should be a CSV file with the following structure:
 **Feedstock Composition:**
 - `C`, `H`, `O`, `N`, `S` - Elemental composition (wt%, dry basis)
 - `Ash` - Ash content (wt%, dry basis)
-- `VM` - Volatile matter (wt%, dry basis)
-- `FC` - Fixed carbon (wt%, dry basis)
 - `Lignin`, `cellulose`, `hemicellulose` - Biochemical composition (wt%, dry basis)
 - `H/C`, `O/C` - Elemental ratios
-- `LRI` - Liquefaction Readiness Index
+- `LRI` - Lignin Richness Index
 
 **Process Conditions:**
 - `T` - Temperature (°C)
@@ -69,12 +67,6 @@ C,H,O,N,Ash,T,t,IC,biochar_Y_daf,biooil_Y_daf,C_biochar,HHV_biooil,DOI
 1. **Raw Data**: Place your original CSV file here as `HTT_normalized_data.csv` or similar
 2. **Processed Data**: The notebook will generate intermediate files in `outputs/tables/`
 
-## Data Privacy
-
-⚠️ **Important**: If your data is confidential or unpublished:
-- Add data files to `.gitignore` (already configured)
-- Only share processed/aggregated results
-- Consider using a separate private repository for data
 
 ## Sample Dataset
 
