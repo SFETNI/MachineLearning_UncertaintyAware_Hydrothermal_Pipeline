@@ -1,5 +1,8 @@
 # ML-UQ Hydrothermal Pipeline
 
+## Biomass HTT/HTL Dataset
+DOI: https://doi.org/10.22000/0b7ffmw1jtca3gw3
+
 ## Machine Learning with Uncertainty Quantification for Hydrothermal Processing
 
 Hey there! This repository is your complete toolkit for training machine learning models on hydrothermal processing data with proper uncertainty quantification. We're talking Random Forest models with conformal prediction for predicting biochar, bio-oil, and hydrochar properties - basically everything you need to turn experimental data into reliable predictions.
