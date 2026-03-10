@@ -280,11 +280,7 @@ If this helps your research, a citation would be awesome:
 [Citation coming soon - paper in prep]
 ```
 
-## Acknowledgments
 
-Thanks to everyone who contributed data, ideas, and coffee to make this happen!
-
----
 
 **Questions?** Open an issue on GitHub - we're happy to help!
 ## License
@@ -295,15 +291,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Contact
-
-For questions or issues, please open an issue on GitHub or contact [your email].
-
-## Acknowledgments
-
-- [Funding sources]
-- [Collaborators]
-- [Data providers]
 
 ## Flowchart
 
