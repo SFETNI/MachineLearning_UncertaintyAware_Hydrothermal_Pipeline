@@ -38,7 +38,7 @@ ml_uq_hydrothermal_pipeline/
 │   ├── interaction_features.py     # Feature interaction utilities
 │   └── normalize_daf_to_dry_basis.py   # Basis conversions
 │
-├── data/                           # Your datasets go here
+├── data/                           # The ML-ready dataset
 │   └── HTT_normalized_data_catalysts.csv
 │
 ├── models/                         # Trained models
